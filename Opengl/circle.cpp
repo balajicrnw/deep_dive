@@ -12,7 +12,7 @@ int main() {
     glfwMakeContextCurrent(w);
     gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
 
-    const int n = 100; // number of points (more = smoother)
+    const int n = 10; // number of points (more = smoother)
     float v[(n+2)*3];
 
     // center
